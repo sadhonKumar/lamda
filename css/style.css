@@ -1,0 +1,491 @@
+/*fonts start*/
+@font-face
+{
+    font-family: GentiumBookBasic-Bold;
+    src: url('../fonts/GentiumBookBasic-Bold.ttf');
+}
+@font-face
+{
+    font-family: Lato-Regular;
+    src: url('../fonts/Lato-Regular.ttf');
+}
+@font-face
+{
+    font-family: Myriad Pro Regular;
+    src: url('../fonts/Myriad%20Pro%20Regular.ttf');
+}
+@font-face
+{
+    font-family: OpenSans-Bold;
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+@font-face
+{
+    font-family: OpenSans-Italic;
+    src: url('../fonts/OpenSans-Italic.ttf');
+}
+@font-face
+{
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face
+{
+    font-family: YesevaOne-Regular;
+    src: url('../fonts/YesevaOne-Regular.ttf');
+}
+/*fonts end*/
+/*nav start*/
+header nav .nav-link
+{
+    font-family: GentiumBookBasic-Bold;
+    font-size: 21px;
+    color: #fff !important;
+    margin: 0 16px;
+    transition: 0.5s;
+}
+header nav .nav-item
+{
+    border-top: 3px solid transparent;
+    padding: 26px 0;
+    transition: 0.6s;
+}
+header nav .nav-item:hover
+{
+    border-top: 3px solid white;
+}
+header nav .nav-item:last-child .nav-link
+{
+    margin-right: 0;
+}
+header nav .d-flex a
+{
+    padding-left: 15px;
+    font-size: 21px;
+    color: #e7b723;
+    vertical-align: middle;
+    transition: 0.3s;
+}
+header nav .d-flex a:hover
+{
+    transform: scale(1.2);
+}
+header .navbar-dark .navbar-toggler 
+{
+    border-color: rgba(255, 255, 255, 0.5) !important; 
+}
+.abc.ncol
+{
+    color: #e7b723 !important;
+}
+.abcd.ncold:hover
+{
+    border-top: 3px solid #e7b723;
+}
+/*nav end*/
+
+/*banner start*/
+#banner
+{
+    background: url(../img/banner-img.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 750px;
+}
+#banner .banner-text
+{
+    padding-top: 210px;
+}
+#banner .banner-text h1
+{
+    font-family: YesevaOne-Regular;
+    font-size: 90px;
+    color: white;
+    margin-bottom: 25px;
+}
+#banner .banner-text .ban-img
+{
+    margin-bottom: 35px;
+}
+#banner .banner-text button,#banner .banner-text .btn-link
+{
+    width: 228px;
+    height: 57px;
+    font-family: Lato-Regular;
+    font-size: 18px;
+    border-radius: 0;
+    padding: 14px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    background-color: rgba(255,255,255,0.2);
+    transition: 0.6s;
+    text-decoration: none;
+}
+#banner .banner-text .btn-link:hover
+{
+    border: 1px solid #000000;
+    background-color: rgba(0,0,0,0.4);
+}
+#banner .banner-text a:nth-child(3)
+{
+    margin-right: 13px;
+}
+#banner .banner-text a:last-child
+{
+    margin-left: 13px;
+}
+/*banner end*/
+
+/*about start*/
+#about
+{
+    background: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+}
+#about .row 
+{
+    padding: 50px 0 40px;
+}
+#about .abt-text h2,#ingr .ingr-content h2,#review h2
+{
+    font-family: YesevaOne-Regular;
+    font-size: 36px;
+    color: #cc9900;
+}
+#about .abt-text .abt-divider,#ingr .ingr-content .ingr-divider
+{
+    padding: 7px 0 30px;
+}
+#about .abt-text p,#ingr .ingr-content p
+{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #4c4c4c;
+    padding-bottom: 30px;
+}
+#about .abt-text .abt-cook .img-fluid
+{
+    max-width: 35%;
+    margin-left: 60px;
+}
+/*about end*/
+/*ingredients start*/
+#ingr
+{
+    background: url(../img/ingre-bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 750px;
+}
+#ingr .ingr-bg
+{
+    padding: 70px 0;
+    background-color: rgba(0,0,0,0.4);
+}
+#ingr .ingr-move
+{
+    padding: 100px 0;
+}
+#ingr .ingr-content h2
+{
+    color: white;
+}
+#ingr .ingr-content p
+{
+    color: white;
+    padding-bottom: 50px;
+}
+#ingr .d-flex .img-fluid
+{
+    max-width: 80%;
+}
+/*ingredients end*/
+
+/*menu strat*/
+#menu
+{
+    background: url(../img/menu-bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 994px;
+}
+#menu .menu-move
+{
+    padding: 100px 0;
+}
+#menu h3
+{
+    font-family: YesevaOne-Regular;
+    font-size: 36px;
+    color: #cc9900;
+}
+#menu h5
+{
+    font-family: YesevaOne-Regular;
+    font-size: 19px;
+    color: #c89f2d;
+}
+#menu hr
+{
+    padding: 0px 0 10px;
+    border-color: rgba(200,159,45,0.3);
+}
+#menu p
+{
+    font-family: Lato-Regular;
+    font-size: 13px;
+    color: #4c4c4c;
+    padding-bottom: 20px;
+}
+#menu .menu-divider
+{
+    padding: 5px 0 25px;
+}
+#menu .menu-two .bor-box,#menu .bor-box1
+{
+    position: relative;
+    left: -15px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 15px;
+    border: 1px solid  rgba(200,159,45,0.5);
+    width: 108%;
+    margin-bottom: 28px;
+}
+#menu .special-p,#menu .special-p1
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#menu .special-box,#menu .special-box1
+{
+    width: 69px;
+    height: 22px;
+    background-color: #c89f2d;
+    text-align: center;
+    position: absolute;
+    top: -22px;
+    right: -1px;
+}
+#menu .special-bp,#menu .special-bp1
+{
+    margin-bottom: 0;
+    padding-bottom: 28px;
+}
+#menu .special-box h6,#menu .special-box1 h6
+{
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #f8fafa;
+    padding-top: 2px;
+}
+
+/*menu end*/
+
+/*review strat*/
+#review
+{
+    background: url(../img/review.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+}
+#review .review-bg
+{
+    padding: 70px 50px;
+    line-height: 40px;
+    background-color: rgba(0,0,0,0.6);
+}
+#review .review-text
+{
+    position: relative;
+}
+#review .re-move
+{
+    padding: 100px 0;
+}
+#review h2
+{
+    color: #fff;
+}
+#review .re-divider
+{
+    padding: 12px 0 28px;
+}
+#review p
+{
+    font-family: GentiumBookBasic-Bold;
+    font-size: 25px;
+    color: #dde0df;
+}
+#review h6
+{
+    font-family: Lato-Regular;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 14px;
+    margin-bottom: 0;
+}
+#review .dbl-q
+{
+    position: absolute;
+    left: 4%;
+    top: 36%;
+
+}
+/*review end*/
+
+/*book start*/
+#book
+{
+    background: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+}
+#book .book-move
+{
+    padding: 100px 0;
+}
+#book .book-por h2
+{
+    font-family: YesevaOne-Regular;
+    font-size: 36px;
+    color: #cc9900;
+}
+#book .book-por .book-divider
+{
+    padding: 4px 0 25px;
+}
+#book .img1 .img-fluid,#book .img2 .img-fluid
+{
+    height: 100%;
+}
+#book .book-por p
+{
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 24px;
+}
+#book .book-por label
+{
+    font-family: OpenSans-Bold;
+    font-size: 14px;
+    color: #c9a131;
+}
+#book .book-por .form-control
+{
+    font-family: OpenSans-Italic;
+    border-radius: 0;
+    font-size: 16px;
+    color: #7c7c7c;
+}
+#book .book-por input[type="text"]:focus,#book .book-por input[type="date"]:focus,#book .book-por select:focus,#book .book-por .btn:focus
+{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #c9a131;
+}
+#book .book-por .btn
+{
+    font-family: OpenSans-Regular;
+    width: 200px;
+    height: 36px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #c9a131;
+    border-radius: 0;
+    transition: 0.5s;
+    margin-top: 15px;
+    padding: 4px;
+}
+#book .book-por .btn:hover
+{
+    background-color: rgba(201,161,49,0.8);
+}
+/*book end*/
+/*footer start*/
+footer
+{
+    padding: 60px 0;
+    background-color: #191919;
+}
+footer .foot-1 h3,footer .foot-2 h3,footer .foot-3 h3
+{
+    font-family: YesevaOne-Regular;
+    font-size: 21px;
+    color: #fefefe;
+}
+footer .foot-div
+{
+    padding: 7px 0 18px;
+}
+footer .foot-1 p,footer .foot-1 p span,footer .foot-2 p,footer .foot-2 p span
+{
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: #ffffff;
+}
+footer .foot-1 p span,footer .foot-2 p span
+{
+    font-family: OpenSans-Bold;
+}
+footer .foot-2 p,footer .foot-2 p span
+{
+    font-size: 15px;
+}
+footer .foot-2 .d-flex
+{
+    margin-top: 40px;
+}
+footer .foot-3 h5
+{
+    font-family: OpenSans-Bold;
+    font-size: 15px;
+    color: #ffffff;
+}
+footer .foot-3 .d-flex
+{
+    margin-top: 48px;
+}
+footer .foot-2 .d-flex .cc,footer .foot-3 .d-flex .ff
+{
+    margin-right: 12px;
+}
+footer .foot-2 .d-flex .cc:last-child,footer .foot-3 .d-flex .ff:last-child
+{
+    margin-right: 0;
+}
+footer .foot-3 .d-flex i,footer .foot-2 .d-flex i
+{
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+}
+footer .foot-3 .d-flex i:hover,footer .foot-2 .d-flex i:hover
+{
+    transform: scale(1.4) translateY(-10px);
+    color: #c9a131;
+}
+/*footer end*/
+
+
+
+
+
+
+
+
+
